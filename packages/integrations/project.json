@@ -12,5 +12,9 @@
     "path": "./bitrise/tsconfig.json"
   }, {
     "path": "./jira/tsconfig.json"
+  }, {
+    "path": "./webhook/tsconfig.json"
+  }, {
+    "path": "./google-play-store/tsconfig.json"
   }]
 }
