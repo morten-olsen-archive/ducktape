@@ -15,10 +15,10 @@ A platform for sticking different platforms together
 * Jira `@morten-olsen/ducktape-integration-azure-devops`
 
 **Planned**
-* Bitrise `@morten-olsen/ducktape-integration-bitrise`
-* Google Play Store `@morten-olsen/ducktape-integration-google-play-store`
 * Slack
 * Pushover
+* Bitrise `@morten-olsen/ducktape-integration-bitrise`
+* Google Play Store `@morten-olsen/ducktape-integration-google-play-store`
 
 
 ## Quick start
