@@ -4,7 +4,7 @@
   "version": "1.0.0-alpha.1",
   "main": "dist/index.ts",
   "scripts": {
-    "dev": "nodemon",
+    "dev": "ts-node src/index.ts start",
     "create-config": "ts-node src/index.ts create-config",
     "bundle": "ducktape-bundler bundle src/index.ts"
   },
@@ -13,8 +13,5 @@
     "@morten-olsen/ducktape-server": "1.0.0-alpha.1",
     "@morten-olsen/ducktape-integration-github": "1.0.0-alpha.1",
     "ngrok": "3.2.5"
-  },
-  "devDependencies": {
-    "nodemon": "1.19.4"
   }
 }
