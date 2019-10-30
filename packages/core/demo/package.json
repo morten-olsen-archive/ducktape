@@ -1,7 +1,7 @@
 {
   "name": "@morten-olsen/ducktape-demo",
   "private": true,
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "main": "dist/index.ts",
   "scripts": {
     "dev": "ts-node src/index.ts start",
@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@morten-olsen/ducktape-bundler": "^1.0.0-alpha.0",
-    "@morten-olsen/ducktape-integration-github": "^1.0.0-alpha.2",
-    "@morten-olsen/ducktape-server": "^1.0.0-alpha.2",
+    "@morten-olsen/ducktape-integration-github": "^1.0.0-alpha.3",
+    "@morten-olsen/ducktape-server": "^1.0.0-alpha.3",
     "ngrok": "3.2.5"
   }
 }
