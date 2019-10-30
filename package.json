@@ -9,6 +9,7 @@
     "packages/integrations/*"
   ],
   "scripts": {
+    "prepublish": "yarn build",
     "postinstall": "lerna bootstrap",
     "dev": "lerna run dev --stream --parallel",
     "create-config": "lerna run create-config --stream --parallel",

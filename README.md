@@ -5,6 +5,7 @@ A platform for sticking different platforms together
 ### Currently supported platforms:
 
 * Github `@morten-olsen/ducktape-integration-github`
+* Cron `@morten-olsen/ducktape-integration-cron`
 
 ## Quick start
 

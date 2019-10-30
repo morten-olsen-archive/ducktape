@@ -2,5 +2,15 @@
   "files": [],
   "references": [{
     "path": "./github/tsconfig.json"
+  }, {
+    "path": "./cron/tsconfig.json"
+  }, {
+    "path": "./appstore-connect/tsconfig.json"
+  }, {
+    "path": "./azure-devops/tsconfig.json"
+  }, {
+    "path": "./bitrise/tsconfig.json"
+  }, {
+    "path": "./jira/tsconfig.json"
   }]
 }
