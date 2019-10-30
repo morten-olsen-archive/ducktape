@@ -18,6 +18,7 @@ const createClientConfig = async (name: string, client: Client, configStore: Con
     });
     if (!answers.overwrite) return;
   }
+  console.log(`\n\n--- configuring ${name} ---\n`);
   const newConfig = await client.createConfig(clientConfig);
   configStore.set(name, newConfig);
 };

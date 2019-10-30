@@ -16,5 +16,7 @@
     "path": "./webhook/tsconfig.json"
   }, {
     "path": "./google-play-store/tsconfig.json"
+  }, {
+    "path": "./slack/tsconfig.json"
   }]
 }

@@ -8,14 +8,14 @@ A platform for sticking different platforms together
 * Github `@morten-olsen/ducktape-integration-github`
 * Cron `@morten-olsen/ducktape-integration-cron`
 * Webhook `@morten-olsen/ducktape-integration-webhook`
+* Azure DevOps `@morten-olsen/ducktape-integration-azure-devops`
+* Slack `@morten-olsen/ducktape-integration-slack`
 
 **Work in progress**
 * AppStore Connect `@morten-olsen/ducktape-integration-appstore-connect`
-* Azure DevOps `@morten-olsen/ducktape-integration-azure-devops`
-* Jira `@morten-olsen/ducktape-integration-azure-devops`
+* Jira `@morten-olsen/ducktape-integration-jira`
 
 **Planned**
-* Slack
 * Pushover
 * Bitrise `@morten-olsen/ducktape-integration-bitrise`
 * Google Play Store `@morten-olsen/ducktape-integration-google-play-store`
