@@ -1,6 +1,6 @@
 {
   "name": "@morten-olsen/ducktape-bundler",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/morten-olsen/ducktape.git"
@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "@zeit/ncc": "0.20.5",
-    "fs-extra": "8.1.0",
-    "commander": "3.0.2"
+    "commander": "3.0.2",
+    "fs-extra": "8.1.0"
   },
   "devDependencies": {
-    "@types/fs-extra": "5.0.2",
-    "@types/commander": "2.12.2"
+    "@types/commander": "2.12.2",
+    "@types/fs-extra": "5.0.2"
   }
 }
