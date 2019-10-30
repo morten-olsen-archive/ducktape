@@ -1,6 +1,10 @@
 {
   "name": "@morten-olsen/ducktape-server",
   "version": "1.0.0-alpha.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morten-olsen/ducktape.git"
+  },
   "main": "dist/index.js",
   "dependencies": {
     "inquirer": "7.0.0",
