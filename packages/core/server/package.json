@@ -1,0 +1,17 @@
+{
+  "name": "@morten-olsen/ducktape-server",
+  "version": "1.0.0-alpha.1",
+  "main": "dist/index.js",
+  "dependencies": {
+    "inquirer": "7.0.0",
+    "commander": "3.0.2",
+    "express": "4.17.1",
+    "body-parser": "1.19.0"
+  },
+  "devDependencies": {
+    "@types/commander": "2.12.2",
+    "@types/inquirer": "6.5.0",
+    "@types/express": "4.11.1",
+    "@types/body-parser": "1.17.0"
+  }
+}

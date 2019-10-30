@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [{
+    "path": "./core/project.json"
+  }, {
+    "path": "./integrations/project.json"
+  }]
+}
