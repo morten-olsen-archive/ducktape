@@ -1,13 +1,13 @@
 {
   "name": "@morten-olsen/ducktape-integration-github",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.2",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/morten-olsen/ducktape.git"
   },
   "dependencies": {
-    "@morten-olsen/ducktape-server": "^1.0.0-alpha.0",
+    "@morten-olsen/ducktape-server": "^1.0.0-alpha.2",
     "@octokit/app": "4.1.0",
     "@octokit/request": "5.3.0",
     "@octokit/rest": "16.34.0",
