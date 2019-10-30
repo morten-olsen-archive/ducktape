@@ -1,4 +1,5 @@
 import { Express, RequestHandler } from 'express';
+import inquirer from 'inquirer';
 
 export type HookOptions = {
   name: string;
@@ -30,6 +31,7 @@ type RegisterMiddleware = (config: HookOptions, handler: RequestHandler) => stri
 export type ClientApi = {
   registerHook: RegisterHook;
   registerMiddleware: RegisterMiddleware;
+  prompt: typeof inquirer.prompt;
 }
 
 abstract class Client<ConfigType = any> implements ClientApi {
@@ -41,6 +43,8 @@ abstract class Client<ConfigType = any> implements ClientApi {
   abstract healthCheck(): Promise<boolean | Error>;
 
   abstract createConfig(current?: ConfigType): Promise<ConfigType>;
+
+  prompt = inquirer.prompt;
 
   async setupCore(core: CoreSetup) {
     this._core = core;

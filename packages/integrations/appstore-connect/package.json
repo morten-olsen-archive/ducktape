@@ -7,6 +7,11 @@
     "url": "https://github.com/morten-olsen/ducktape.git"
   },
   "dependencies": {
-    "@morten-olsen/ducktape-server": "^1.0.0-alpha.0"
+    "@morten-olsen/ducktape-server": "^1.0.0-alpha.0",
+    "axios": "0.19.0",
+    "jsonwebtoken": "8.5.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "7.2.7"
   }
 }

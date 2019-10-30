@@ -2,10 +2,24 @@
 
 A platform for sticking different platforms together
 
-### Currently supported platforms:
+## Supported platforms:
 
+**Fully supported**
 * Github `@morten-olsen/ducktape-integration-github`
 * Cron `@morten-olsen/ducktape-integration-cron`
+* Webhook `@morten-olsen/ducktape-integration-webhook`
+
+**Work in progress**
+* AppStore Connect `@morten-olsen/ducktape-integration-appstore-connect`
+* Azure DevOps `@morten-olsen/ducktape-integration-azure-devops`
+* Jira `@morten-olsen/ducktape-integration-azure-devops`
+
+**Planned**
+* Bitrise `@morten-olsen/ducktape-integration-bitrise`
+* Google Play Store `@morten-olsen/ducktape-integration-google-play-store`
+* Slack
+* Pushover
+
 
 ## Quick start
 
